@@ -1,0 +1,117 @@
+h1, h2, h3 {
+    text-align: center;
+}
+
+.offer-card-1 {
+    background: url(https://4.imimg.com/data4/BY/MC/MY-12990669/dahlia-flower-pot-500x500.jpg);
+    height: 100%;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+.offer-card-2 {
+    background: url(https://rukminim1.flixcart.com/image/352/352/jlmmdu80/bed/z/r/r/king-na-particle-board-kosmo-duke-king-bed-with-box-type-storage-original-imaf8zpkrpxrggfn.jpeg?q=70);
+    height: 100%;
+    overflow: hidden;
+    color: #FFFFFF;
+}
+
+
+.card-body-1 {
+    background: rgba(37, 47, 79,0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
+.card-body-2 {
+    background: rgba(182, 182, 184, 0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color: white;
+    position: relative;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  /* Style navigation menu links */
+  .topnav a {
+    color: black;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+  }
+  
+  /* Style the hamburger menu */
+  .topnav a.icon {
+    background: grey;
+    display: block;
+    margin-top: 6px;
+    font-size: 17px;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+
+
+/* Mobile view */
+@media only screen and (max-width: 425px) {
+    .normal-view-navbar {
+        display: none
+    }
+
+    h1 {
+        text-align: left;
+    }
+
+    .middle-icon-list {
+        position: absolute;
+        top: 15px;
+        left: 155px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .big-image {
+        height: 511px;
+    }
+}
+
+@media screen and (min-width: 1450px) and (max-width: 2560px) {
+    .big-image {
+        width: 1280px;
+    }
+}
+
+
+@media only screen and (max-width: 320px) {
+    .middle-icon-list {
+        visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .middle-icon-list {
+        position: absolute;
+        top: 15px;
+        left: 140px;
+    }
+}
+
+
+/* Normal View */
+@media only screen and (min-width: 768px) {
+    .mobile-view-navbar {
+        display: none;
+    }
+}
